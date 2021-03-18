@@ -4,27 +4,27 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.avr128db48-opamp-as-regulated-power-supply-mplab-mcc",
-        "version": "",
-        "displayName": "",
+        "version": "1.0.0",
+        "displayName": "Using the Internal OPAMP as Regulated Power Supply for MVIO",
         "projectName": "avr128db48-opamp-as-regulated-power-supply-mplab-mcc",
-        "shortDescription": "",
+        "shortDescription": "This MCC MPLAB® X example shows how to use the OPAMP as a regulated power supply for a second voltage domain.",
         "ide": {
             "name": "MPLAB X",
-            "semverRange": ""
+            "semverRange": ">=5.45.0"
         },
         "compiler": [
 			{
 				"name": "XC8",
-				"semverRange": ""
+				"semverRange": "^2.31.0"
 			}
 		],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "AVR-Dx_DFP",
+            "semverRange": "^1.7.98"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "MCC",
+            "semverRange": ">=4.0.2"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -32,16 +32,39 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "",
+                "name": "AVR128DB48",
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Microchip",
         "subcategories": [
+            [
+                "Peripherals", "OPAMP"
+            ],
+            [
+                "Peripherals", "MVIO"
+            ],            			
+            [
+                "Peripherals", "DAC"
+            ],
+            [
+                "Peripherals", "ADC"
+            ]
         ],
         "peripherals": [
+            "OPAMP","MVIO","DAC","ADC"
         ],
         "keywords": [
+            "Analog Signal Conditioning",
+            "Operational Amplifier",
+            "Op Amp",
+            "Voltage Follower",
+            "Resistor Ladder",
+            "Regulated Supply",
+            "Curiosity Nano",
+            "CIP",
+            "VDDIO2",
+            "opamp-as-regulated-power-supply"	
         ],
 		"additionalData": {
 			"longDescription": {
