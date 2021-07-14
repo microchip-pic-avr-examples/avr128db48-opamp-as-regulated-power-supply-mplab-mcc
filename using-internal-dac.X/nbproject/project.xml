@@ -4,7 +4,7 @@
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
             <name>using-internal-dac</name>
-            <creation-uuid>55ecf0fa-eda0-4844-8865-f38fbd9e799a</creation-uuid>
+            <creation-uuid>32d3c2a6-4a0b-4a0d-ab2c-1517811eaa6d</creation-uuid>
             <make-project-type>0</make-project-type>
             <c-extensions>c</c-extensions>
             <cpp-extensions/>
@@ -15,7 +15,11 @@
             <sourceRootList/>
             <confList>
                 <confElem>
-                    <name>default</name>
+                    <name>free</name>
+                    <type>2</type>
+                </confElem>
+                <confElem>
+                    <name>pro</name>
                     <type>2</type>
                 </confElem>
             </confList>
